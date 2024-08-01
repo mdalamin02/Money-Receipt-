@@ -1,0 +1,198 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 0 auto;
+  align-items: center;
+}
+
+.memo-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  /* background-color: red; */
+  width: 150px;
+  /* height: 40px; */
+  margin-top: 0px;
+}
+
+.title-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.money {
+  font-size: 25px;
+  font-weight: 700;
+  border: 3px solid #0b8a6f;
+  border-radius: 15px;
+  padding: 10px;
+  color: #0b8a6f;
+  margin-top: 100px;
+}
+
+.text-container {
+  font-weight: 400;
+  color: #0c62b5;
+  text-align: end;
+  line-height: 25px;
+}
+
+.span-parent {
+  margin-top: 10px;
+  display: flex;
+  gap: 3px;
+  justify-content: end;
+}
+
+.span-child1 {
+  border-left: 5px solid #0b8a6f;
+  height: 2px;
+  border-radius: 100px;
+}
+.span-child2 {
+  border-left: 5px solid #0b8a6f;
+  height: 2px;
+  border-radius: 100px;
+}
+.span-child3 {
+  border-left: 10px solid #0b8a6f;
+  height: 2px;
+  border-radius: 100px;
+}
+
+.span-child4 {
+  border-left: 20px solid #0b8a6f;
+  height: 2px;
+  border-radius: 100px;
+}
+
+.memo-area {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.memo {
+  color: #0b8a6f;
+  font-size: 20px;
+}
+
+.memo-field {
+  border: 0px solid;
+  outline: none;
+  border-bottom: 1px dashed;
+}
+
+.received-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.received-container label {
+  min-width: fit-content;
+}
+
+input {
+  border: none;
+  border-bottom: 1px dashed;
+  border: 0px solid;
+  outline: none;
+  border-bottom: 1px dashed;
+  min-width: fit-content;
+}
+
+.form input {
+  width: 100%;
+}
+
+.received-input {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.training-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.training-field {
+  width: 60%;
+  display: flex;
+}
+
+.training-field input {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.training-field label {
+  min-width: fit-content;
+}
+
+.contact-number {
+  display: flex;
+  width: 40%;
+}
+
+.contact-number label {
+  min-width: fit-content;
+}
+.contact-number input {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.sign-input {
+  border-top: 1px solid rgb(0, 0, 0);
+  margin-top: 40px;
+}
+
+.amount {
+  font-size: 20px;
+  color: #0b8a6f;
+}
+
+.amount-input {
+  border: 1px solid #0b8a6f;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, #0c62b5, #0b8a6f);
+}
+
+.map-container {
+  display: flex;
+  color: white;
+  padding: 10px 0;
+}
+
+.map-icon {
+  width: 15px;
+  margin-right: 5px;
+}
